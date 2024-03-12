@@ -9,11 +9,14 @@ html{
 .nav{
     background-color: rgb(173, 45, 45);
     width: 100%;
-    height: 130px;
+    height: 110px;
     margin-top: -20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
 }
 .nav h1{
     margin-left: 25px;
@@ -257,6 +260,7 @@ html{
     color: darkblue;
     font-family: "Merienda", cursive;
 }
+
 iframe{
     justify-content: center;
     margin-left: 100px;
